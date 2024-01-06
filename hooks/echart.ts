@@ -84,7 +84,7 @@ echarts.use([
  */
 export function useEcharts(
   options: Ref<ECOption> | ComputedRef<ECOption>,
-  renderFun?: (chartInstance: echarts.ECharts) => void,
+  renderFun?: (chartInstance: echarts.ECharts) => void
 ) {
   const { themeMode } = useTheme();
 
@@ -148,7 +148,7 @@ export function useEcharts(
     () => themeMode.value,
     () => {
       updateTheme();
-    },
+    }
   );
 
   onUnmounted(() => {

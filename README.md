@@ -8,7 +8,7 @@ This is a simple admin dashboard built with Nuxt 3 and Tailwind CSS.
 
 ![image](https://github.com/story2Dev/nuxt3-admin-dashboard/assets/18229355/cc6d602f-fdcc-4688-847b-4f15d1356e60)
 
-## USE 
+## USE
 
 [UI](https://www.naiveui.com/en-US/os-theme)
 
@@ -92,4 +92,3 @@ yarn preview
 # bun
 bun run preview
 ```
-

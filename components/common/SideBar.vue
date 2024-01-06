@@ -38,7 +38,6 @@
 <script setup lang="ts">
 import { AppMenu } from '~/constants';
 
-
 const isActivePath = (to?: string) => {
   const roots = to?.split('/').filter((r) => r !== '');
   const { fullPath } = useRouter().currentRoute.value;
