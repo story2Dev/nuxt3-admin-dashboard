@@ -85,7 +85,7 @@ const items = [
 
 <template>
   <div class="pb-1">
-    <div class="rounded-md  border-gray-200  dark:border-slate-700">
+    <div class="rounded-md border-gray-200 dark:border-slate-700">
       <header class="border-b border-gray-100 py-4 dark:border-slate-700">
         <h2 class="font-semibold text-gray-600"> Recent Quotes </h2>
       </header>

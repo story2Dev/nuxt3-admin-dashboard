@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="flex items-center justify-between h-full">
+    <nav class="flex h-full items-center justify-between">
       <ul class="flex h-full">
         <li>
           <div
@@ -63,11 +63,11 @@
           class="p-2 transition-colors duration-500 hover:bg-gray-200 dark:hover:bg-gray-800"
         >
           <NuxtLink to="/setting/account">
-            <article class="flex items-center justify-center gap-2 h-10 w-10">
+            <article class="flex h-10 w-10 items-center justify-center gap-2">
               <img
                 alt="Mark AI"
                 src="https://avatars.githubusercontent.com/u/18229355?v=4"
-                class="w-full h-full rounded-full object-cover"
+                class="h-full w-full rounded-full object-cover"
               />
             </article>
           </NuxtLink>

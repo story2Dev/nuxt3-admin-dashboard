@@ -14,7 +14,7 @@
               class="transition-all group-hover:rotate-12 group-hover:scale-125 group-hover:text-primary-600"
               size="30"
             />
-            <h3>{{item.title}}</h3>
+            <h3>{{ item.title }}</h3>
           </li>
         </ul>
         <article class="mt-4">
