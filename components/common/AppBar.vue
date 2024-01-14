@@ -28,8 +28,8 @@
             'px-3': $route.fullPath == '/',
           }"
         >
+          <span class="hidden text-lg md:block">{{ title }}</span>
           <nuxt-link to="/" class="text-base font-bold text-primary-500">
-            <span class="hidden md:block">Nuxt Admin</span>
             <span class="md:hidden">NA</span>
           </nuxt-link>
         </li>
@@ -62,7 +62,7 @@
         <li
           class="p-2 transition-colors duration-500 hover:bg-gray-200 dark:hover:bg-gray-800"
         >
-          <NuxtLink to="/setting/account">
+          <NuxtLink to="/settings/accounts">
             <article class="flex h-10 w-10 items-center justify-center gap-2">
               <img
                 alt="Mark AI"
@@ -77,4 +77,6 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { title } = useApp();
+</script>
