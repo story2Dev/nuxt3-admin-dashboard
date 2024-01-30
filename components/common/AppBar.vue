@@ -1,6 +1,8 @@
 <template>
   <div>
-    <nav class="flex h-full items-center justify-between">
+    <nav
+      class="flex h-full items-center justify-between border-b border-slate-100"
+    >
       <ul class="flex h-full">
         <li>
           <div

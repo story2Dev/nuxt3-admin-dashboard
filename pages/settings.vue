@@ -1,8 +1,8 @@
 <template>
-  <div class="mx-auto max-w-3xl px-4">
-    <n-card>
-      <div class="flex gap-4">
-        <nav class="w-52">
+  <div class="mx-auto h-full max-w-3xl p-4">
+    <n-card :content-style="{ padding: '0' }" class="h-full">
+      <div class="flex h-full gap-4 divide-x divide-slate-100">
+        <nav class="w-52 p-4">
           <div>
             <n-input v-model:value="search" :placeholder="$t('search')">
               <template #prefix>
@@ -33,7 +33,7 @@
             </article>
           </nav>
         </nav>
-        <main class="flex-grow">
+        <main class="flex-grow p-4">
           <nav class="mb-2 flex items-center gap-2">
             <article class="flex items-center gap-2 font-bold">
               <button @click="$router.back()">
