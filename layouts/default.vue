@@ -11,7 +11,7 @@
         </div>
       </aside>
       <main class="flex h-full flex-grow flex-col">
-        <div class="container h-full flex-grow overflow-y-auto px-4 py-2">
+        <div class="container h-full flex-grow overflow-y-auto">
           <slot></slot>
         </div>
       </main>

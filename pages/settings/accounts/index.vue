@@ -18,7 +18,7 @@
           <li v-for="(item, index) in items" :key="index">
             <NuxtLink
               :to="item.path"
-              class="flex items-center justify-between gap-2 py-0.5"
+              class="flex items-center justify-between gap-2 py-1"
             >
               <div class="flex items-center gap-2">
                 <Icon :name="item.icon" />
