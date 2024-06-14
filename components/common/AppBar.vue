@@ -1,14 +1,14 @@
 <template>
   <div>
     <nav
-      class="flex h-full items-center justify-between border-b border-slate-100"
+      class="grid grid-cols-3 h-full items-center justify-between border-b border-slate-100"
     >
       <ul class="flex h-full">
         <li>
           <div
             class="flex h-full w-14 items-center justify-center bg-gray-100 transition-all hover:bg-primary-400 hover:text-white dark:bg-slate-700"
           >
-            <Icon name="iconamoon:apps" size="18" />
+            <Icon name="iconamoon:apps" size="16" />
           </div>
         </li>
         <li
@@ -50,7 +50,7 @@
         </button>
       </div>
 
-      <ul class="flex h-full items-center">
+      <ul class="flex h-full items-center justify-end">
         <li
           class="flex h-full w-12 items-center justify-center p-2 transition-all duration-200 hover:bg-gray-200 dark:hover:bg-gray-800"
         >

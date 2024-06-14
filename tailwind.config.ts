@@ -23,6 +23,7 @@ export default <Partial<Config>>{
           950: '#0B051A',
         },
       },
+      
     },
   },
 };

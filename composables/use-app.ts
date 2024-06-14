@@ -4,6 +4,9 @@ export const useApp = (name = 'app') => {
   const title = useState('app-title', () => 'App');
   const titleSetting = useState('app-title-setting', () => 'App Setting');
 
+  const isRightSide = useState('app-side', () => false);
+  const rightSide = useState<any>('app-side-component');
+
   const setting = useState<KeyValue>('app-setting', () => {
     return {
       formatDate: 'dd/MM/yyyy',
@@ -27,5 +30,7 @@ export const useApp = (name = 'app') => {
     limit,
     search,
     page,
+    isRightSide,
+    rightSide,
   };
 };

@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto h-full max-w-3xl p-4">
+  <div class="mx-auto h-full max-w-3xl w-full p-4">
     <n-card :content-style="{ padding: '0' }" class="h-full">
       <div class="flex h-full gap-4 divide-x divide-slate-100">
         <nav class="w-52 p-4">

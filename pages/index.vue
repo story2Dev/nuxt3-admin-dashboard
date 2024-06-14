@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <section>Dashboard</section>
-    <section class="mt-4 grid gap-4 md:grid-cols-2">
+  <div class="p-4">
+    <!-- <section>Dashboard</section> -->
+    <section class="grid gap-4 md:grid-cols-2">
       <div>
         <ul class="flex flex-wrap gap-4">
           <li
