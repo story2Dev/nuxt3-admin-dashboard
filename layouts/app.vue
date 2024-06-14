@@ -13,9 +13,7 @@
       </div>
       <button @click="toggle">Toggle Slide</button>
       {{ direction }} - {{ transitionName }} {{ show }}
-      <transition
-        :name="transitionName" class="h-full w-full"
-      >
+      <transition :name="transitionName" class="h-full w-full">
         <div v-if="show" class="h-full w-full bg-blue-500 p-4"
           >Sliding Content</div
         >
@@ -26,7 +24,7 @@
     </main>
     {{ isRightSide }}
     <nav v-if="isRightSide">
-      <component :is="rightSide"></component>
+      <component :is="rightSide" />
     </nav>
   </div>
 </template>
@@ -61,7 +59,6 @@ const toggle = () => {
   transitionName.value = show.value ? 'slide-left' : 'slide-right';
   show.value = !show.value;
 };
-
 </script>
 
 <style scoped>
@@ -98,7 +95,7 @@ const toggle = () => {
 .slide-right-leave-to {
   opacity: 0;
   transform: translate(50px, 0);
-} 
+}
 
 /* 
 .slide-left-enter {
@@ -116,6 +113,4 @@ const toggle = () => {
 .slide-right-leave-to {
    transform: translateX(100%);
 } */
-
-
 </style>

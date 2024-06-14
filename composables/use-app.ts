@@ -1,3 +1,4 @@
+import type { Component } from 'nuxt/schema';
 import { SORT_MODE, type FilterKey, type KeyValue } from '~/types';
 
 export const useApp = (name = 'app') => {
@@ -5,7 +6,7 @@ export const useApp = (name = 'app') => {
   const titleSetting = useState('app-title-setting', () => 'App Setting');
 
   const isRightSide = useState('app-side', () => false);
-  const rightSide = useState<any>('app-side-component');
+  const rightSide = useState<Component>('app-side-component');
 
   const setting = useState<KeyValue>('app-setting', () => {
     return {

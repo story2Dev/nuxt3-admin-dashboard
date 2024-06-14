@@ -1,7 +1,7 @@
 <template>
   <NuxtLink to="/settings/accounts">
     <div class="flex gap-4">
-      <n-avatar circle :size="60" :src="user.image"></n-avatar>
+      <n-avatar circle :size="60" :src="user.image" />
       <article>
         <h2 class="text-base">{{ user.displayName }} </h2>
         <p class="text-sm text-gray-500">

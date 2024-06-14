@@ -19,7 +19,7 @@ const items = [
   {
     id: 2,
     client: {
-      name: 'Alex Smith',
+      name: 'Mark Ai',
       email: 'mark@email.com',
       image: 'https://avatars.githubusercontent.com/u/18229355?v=4',
     },
@@ -35,7 +35,7 @@ const items = [
   {
     id: 2,
     client: {
-      name: 'Alex Smith',
+      name: 'Mark Ai',
       email: 'mark@email.com',
       image: 'https://avatars.githubusercontent.com/u/18229355?v=4',
     },
@@ -51,7 +51,7 @@ const items = [
   {
     id: 2,
     client: {
-      name: 'Alex Smith',
+      name: 'Mark Ai',
       email: 'mark@email.com',
       image: 'https://avatars.githubusercontent.com/u/18229355?v=4',
     },
@@ -67,7 +67,7 @@ const items = [
   {
     id: 2,
     client: {
-      name: 'Alex Smith',
+      name: 'Mark Ai',
       email: 'mark@email.com',
       image: 'https://avatars.githubusercontent.com/u/18229355?v=4',
     },
@@ -118,7 +118,7 @@ const items = [
                     {{ 'status' }}
                   </div>
                 </th>
-                <th></th>
+                <th />
               </tr>
             </thead>
             <tbody
@@ -179,11 +179,11 @@ const items = [
                       :class="
                         item.status.id == 1 ? 'bg-green-200' : 'bg-orange-200'
                       "
-                    ></span>
+                    />
                     <span class="relative">{{ item.status.name }}</span>
                   </span>
                 </td>
-                <td class="px-4">
+                <td class="px-4 whitespace-nowrap">
                   <p class="text-xs text-gray-800">
                     {{ new Date(item.createdAt).toDateString() }}
                   </p>

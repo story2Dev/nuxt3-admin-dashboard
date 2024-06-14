@@ -1,5 +1,5 @@
 <template>
-  <div ref="lineRef" class="h-full w-full"></div>
+  <div ref="lineRef" class="h-full w-full" />
 </template>
 
 <script setup lang="ts">

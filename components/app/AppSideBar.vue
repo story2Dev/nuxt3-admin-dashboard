@@ -8,7 +8,7 @@
         >
           <div name="fade">
             <div class="absolute inset-0 z-10 flex items-center justify-start">
-              <div class="ml-0.5 h-6 w-1 rounded-md bg-primary-400"></div>
+              <div class="ml-0.5 h-6 w-1 rounded-md bg-primary-400" />
             </div>
           </div>
           <span :title="item.title">
