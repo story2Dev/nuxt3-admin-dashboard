@@ -7,7 +7,7 @@ export enum SORT_MODE {
 }
 
 export interface KeyValue {
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 type MODE = SORT_MODE;

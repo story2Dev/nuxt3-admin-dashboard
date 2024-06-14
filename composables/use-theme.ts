@@ -1,7 +1,7 @@
 export const useTheme = () => {
   const themeMode = useState('theme', () => 'light');
 
-  const setTheme = (theme: any) => {
+  const setTheme = (theme: string) => {
     themeMode.value = theme;
     localStorage.setItem('theme', themeMode.value);
   };

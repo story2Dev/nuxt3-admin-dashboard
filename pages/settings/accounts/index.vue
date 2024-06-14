@@ -2,7 +2,7 @@
   <div>
     <NuxtLink to="/settings/accounts">
       <div class="flex flex-col items-center justify-center gap-4 text-center">
-        <n-avatar circle :size="90" :src="user.image"></n-avatar>
+        <n-avatar circle :size="90" :src="user.image" />
         <article>
           <h2 class="text-base">{{ user.displayName }} </h2>
           <p class="text-sm text-gray-500">
